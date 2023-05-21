@@ -1,0 +1,441 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This portfolio website is a single-page website CV, displaying capabilities of structuring and designing basic HTML-JS-CSS-based projects."
+    />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Font-awesome-->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <!--Animation on scroll-->
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <!--Font-awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+  </head>
+  <body>
+      <!--header-navbar-->
+      <header class="header">
+          <div class="container">
+              <div class="line justify-content-between">
+                  <div class="logo">
+                      <a href="#home">
+                          <h1>Portfolio Website</h1>
+                      </a>
+                  </div>
+                  <button type="button" class="nav-toggler">
+                      <span></span>
+                  </button>
+
+                  <nav class="nav">
+                      <ul>
+                          <li class="nav-item"><a href="#home">home</a></li>
+                          <li class="nav-item"><a href="#about">about</a></li>
+                          <li class="nav-item"><a href="#education">education</a></li>
+                          <li class="nav-item"><a href="#work-exp">experience</a></li>
+                          <li class="nav-item"><a href="#skills">skills</a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </header>
+      <!--end-->
+
+      <!--home-section-->
+      <section class="home-section" id="home">
+          <div class="container">
+              <div class="home-bg"></div>
+              <div class="background-dark"></div>
+              <div class="line-head min-vh-100 align-items-center">
+                  <div class="home-img" data-aos="fade-left" data-aos-duration="700">
+                      <div class="img-box">
+                          <img src="img/home/vr-photo.jpg" alt="vr-photo img" />
+                      </div>
+                  </div>
+                  <div class="home-text" data-aos="fade-up" data-aos-duration="1000">
+                      <h1>Valentin Raychev</h1>
+                        <p>
+                              I am a highly motivated CS bachelor in his 3rd year with a passion for backend development, seeking
+                              to utilize my skills and experience to contribute to innovative and impactful projects.
+                        </p>
+                     
+                      <a href="#about" class="btn">Let's Go</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--end-->
+
+      <!--about-->
+      <section class="about-section sec-padding" id="about">
+          <div class="container">
+              <div class="line">
+                  <div class="section-title" data-aos="fade-up">
+                      <h2>about me</h2>
+                  </div>
+              </div>
+              <div class="line">
+                  <div class="about-text" data-aos="fade-right">
+                      <h3>Fancy meeting you!</h3>
+                      <p>
+                          Throughout my studies, I have gained a strong foundation in programming languages
+                          such as Java and Python, as well as experience with various database management systems.
+                          In my spare time, I have been working on personal projects, including
+                          developing RESTful APIs using Node.js and creating web applications with the Django framework.
+                          I have also been actively involved in hackathons and coding competitions,
+                          which have sharpened my problem-solving and teamwork skills.
+                          As a quick learner with a strong work ethic, I am excited to join a dynamic team
+                          where I can continue to grow as a developer and contribute to meaningful projects.
+                      </p>
+                      <a href="#education" class="btn btn-default">Education</a>
+                  </div>
+                  <div class="about-img" data-aos="fade-left" data-aos-duration="700">
+                      <div class="img-box">
+                          <img src="img/about.jpg" alt="about img" />
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--end-->
+
+      <!--education-->
+      <section class="education-section sec-padding" id="education">
+          <div class="container">
+              <div class="line">
+                  <div class="section-title" data-aos="flip-up">
+                      <h2>education</h2>
+                  </div>
+              </div>
+              <div class="line">
+                  <div class="edu-item" data-aos="flip-down" data-aos-duration="1000">
+                      <div class="edu-place">
+                          <div class="edu-place-name">
+                              <h3>University</h3>
+                              <span>TU-Sofia, FDIBA</span>
+                          </div>
+                          <div class="edu-place-img">
+                              <img src="img/education/tu.png" alt="edu place img" />
+                          </div>
+                      </div>
+                      <p>
+                          Bachelor's Degree<br>
+                          Oct 2020 - Jun 2024<br><br>
+                          Curriculum: <br>C, Java OOP, Algorithms and Data Structures,
+                          Databases, <br>Computer Architecture, Automata Theory, Programming Paradigms,<br>
+                          Scrum Project Management, Mathematics, Artificial Intelligence
+                      </p>
+                  </div>
+                  <div class="edu-item" data-aos="flip-down" data-aos-duration="1000">
+                      <div class="edu-place">
+                          <div class="edu-place-name">
+                              <h3>Software Course</h3>
+                              <span>SoftUni</span>
+                          </div>
+                          <div class="edu-place-img">
+                              <img src="img/education/softuni.jpg" alt="edu place img" />
+                          </div>
+                      </div>
+                      <p>
+                          Mar 2021 - Apr 2023<br><br>
+                          Technologies:<br>
+                          Java, JavaScript, MySQL, JPA, Hibernate, Spring Framework, Spring MVC, Spring Data, Spring Boot, JUnit, HTTP, REST API
+                      </p>
+                  </div>
+                  <div class="edu-item" data-aos="flip-down" data-aos-duration="1000">
+                      <div class="edu-place">
+                          <div class="edu-place-name">
+                              <h3>High School</h3>
+                              <span>Ivan Vazov Language School</span>
+                          </div>
+                          <div class="edu-place-img">
+                              <img src="img/education/egiv.png" alt="edu place img" />
+                          </div>
+                      </div>
+                      <p>
+                          Sep 2015 - Jun 2020<br><br>
+
+                          First foreign language: German<br>
+                          Second foreign language: Russian<br>
+                          Diploma: 5,94
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--end-->
+
+      <!--work-experience-->
+      <section class="education-section sec-padding" id="work-exp">
+          <div class="container">
+              <div class="line">
+                  <div class="section-title" data-aos="flip-up">
+                      <h2>work experience</h2>
+                  </div>
+              </div>
+              <div class="line">
+                  <div class="edu-item" data-aos="flip-down" data-aos-duration="1000">
+                      <div class="edu-place">
+                          <div class="edu-place-name">
+                              <h3>Accenture</h3>
+                              <span>Full-Stack Developer</span>
+                          </div>
+                          <div class="edu-place-img">
+                              <img src="img/work/accenture.png" alt="work img" />
+                          </div>
+                      </div>
+                      <p>
+                          06/2022 - Present<br><br>
+                          Develop features of EPR business application<br><br>
+                          Maintain and update existing services<br><br>
+                          Upskill and expand programming skills
+                      </p>
+                  </div>
+                  <div class="edu-item" data-aos="flip-down" data-aos-duration="1000">
+                      <div class="edu-place">
+                          <div class="edu-place-name">
+                              <h3>Telus</h3>
+                              <span>Teleagent</span>
+                          </div>
+                          <div class="edu-place-img">
+                              <img src="img/work/telus.png" alt="work img" />
+                          </div>
+                      </div>
+                      <p>
+                          06/2021 - 02/2022<br><br>
+                          First-line customer issues solving<br><br>
+                          Resolving issues with online orders and logistics<br><br>
+                          Assisting new-hires with systems and work processes
+                      </p>
+                  </div>
+                  <div class="edu-item" data-aos="flip-down" data-aos-duration="1000">
+                      <div class="edu-place">
+                          <div class="edu-place-name">
+                              <h3>Tekrida</h3>
+                              <span>Promoter</span>
+                          </div>
+                          <div class="edu-place-img">
+                              <img src="img/work/tekrida.png" alt="work img" />
+                          </div>
+                      </div>
+                      <p>
+                          05/2017 - 09/2018<br><br>
+                          Promoting new items<br><br>
+                          interacting with different customer types<br><br>
+                          Assisting with warehouse orders
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--end-->
+
+      <!--skills section-->
+      <section class="skills-section sec-padding" id="skills">
+          <div class="container">
+              <div class="line">
+                  <div class="section-title" data-aos="fade-up">
+                      <h2>skills</h2>
+                  </div>
+              </div>
+              <div class="line">
+                  <div class="skills-tabs" data-aos="fade-up">
+                      <button type="button"
+                              class="skills-tab-item active"
+                              data-target="#tech-stack">
+                          Tech stack
+                      </button>
+                      <button type="button" class="skills-tab-item" data-target="#certificates">
+                          certificates
+                      </button>
+                      <button type="button" class="skills-tab-item" data-target="#languages">
+                          languages
+                      </button>
+                      <button type="button" class="skills-tab-item" data-target="#interests">
+                          interests
+                      </button>                     
+                  </div>
+              </div>
+              <!--TECH-STACK-->
+              <div class="line skills-tab-content active" id="tech-stack">
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/java.png" alt="skills item thumbnail" />
+                          <h3>Java</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/js.png" alt="skills item thumbnail" />
+                          <h3>JavaScript</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/html.png" alt="skills item thumbnail" />
+                          <h3>HTML</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/css.png" alt="skills item thumbnail" />
+                          <h3>CSS</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/git.png" alt="skills item thumbnail" />
+                          <h3>Git</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/maven.png" alt="skills item thumbnail" />
+                          <h3>Maven</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/db.png" alt="skills item thumbnail" />
+                          <h3>RDBMS</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/spring.png" alt="skills item thumbnail" />
+                          <h3>Spring Framework</h3>
+                      </div>
+                  </div>
+              </div>
+              <!--CERTIFICATES-->
+              <div class="line skills-tab-content" id="certificates">
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/dsd.jpg" alt="skills item thumbnail" />
+                          <h3>DSD II</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/softuni.jpg" alt="skills item thumbnail" />
+                          <h3>Java Advanced</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/sap.png" alt="skills item thumbnail" />
+                          <h3>SAP BTP Extension Developer</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/experian.png" alt="skills item thumbnail" />
+                          <h3>Talk to me Java</h3>
+                      </div>
+                  </div>
+                  
+              </div>
+              <!--LANGUAGES-->
+              <div class="line skills-tab-content" id="languages">
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/english.png" alt="skills item thumbnail" />
+                          <h3>
+                              English
+                          </h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/german.png" alt="skills item thumbnail" />
+                          <h3>German</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/russian.png" alt="skills item thumbnail" />
+                          <h3>Russian</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/bg.png" alt="skills item thumbnail" />
+                          <h3>Bulgarian</h3>
+                      </div>
+                  </div>
+              </div>
+              <!--INTERESTS-->
+              <div class="line skills-tab-content" id="interests">
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/blockchain.avif" alt="skills item thumbnail" />
+                          <h3>Blockchain Technologies</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/it.png" alt="skills item thumbnail" />
+                          <h3>Software Development</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/book.jpg" alt="skills item thumbnail" />
+                          <h3>Reading & Writing</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-left">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/cooking.webp" alt="skills item thumbnail" />
+                          <h3>Cooking</h3>
+                      </div>
+                  </div>
+                  <div class="skills-item" data-aos="fade-up-right">
+                      <div class="skills-item-title">
+                          <img src="img/tech-stack/sport.avif" alt="skills item thumbnail" />
+                          <h3>Sports</h3>
+                      </div>
+                  </div>                  
+              </div>
+              
+          </div>
+      </section>
+      <!--end-->
+
+      <!--footer-->
+      <footer class="footer" id="contact">
+          <div class="container">
+              <div class="background-dark"></div>
+              <div class="line">
+
+                  <div class="footer-item" data-aos="fade-up">
+                      <h3>contact me</h3>
+                      <p>+359 889 210 055</p>
+                      <p>valentin.raychev@gmail.com</p>
+                      <div class="social-links">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-youtube"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="line">
+                  <div class="copyright">&copy; Valentin Raychev, FDIBA, KST, TU-Sofia</div>
+              </div>
+          </div>
+      </footer>
+      <!--end-->
+
+      <script src="js/script.js"></script>
+      <script src="js/aos.js"></script>
+  </body>
+</html>
